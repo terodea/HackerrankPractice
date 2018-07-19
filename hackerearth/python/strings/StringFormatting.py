@@ -1,6 +1,7 @@
 """
 Given an integer,"n" , print the following values for each integer "n" from 1 to "n" :
 O/P : Decimal Octal Hexadecimal (capitalized) Binary
+LearningSOURCE : "https://docs.python.org/3/library/string.html#formatexamples"
 """
 def print_formatted(number):
     for i in range(1, number+1):
