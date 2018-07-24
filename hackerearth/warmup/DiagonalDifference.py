@@ -1,9 +1,7 @@
 """
 Given a square matrix, calculate the absolute difference between the sums of its diagonals.
 """
-"""
-print(abs(sum((lambda arr: int(arr[x]) - int(arr[len(arr) - x - 1]))(input().split()) for x in range(int(input())))))
-"""
+
 import math
 import os
 import random
@@ -11,6 +9,10 @@ import re
 import sys
 
 def diagonalDifference(arr):
+    """
+    One Liner Solution
+    print(abs(sum((lambda arr: int(arr[x]) - int(arr[len(arr) - x - 1]))(input().split()) for x in range(int(input())))))
+    """
     sum1  = 0
     sum2  = 0
     for i in range(n):
