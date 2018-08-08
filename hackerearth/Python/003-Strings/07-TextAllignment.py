@@ -1,8 +1,4 @@
-"""
-You are given a partial code that is used for generating the HackerRank Logo of variable thickness. 
-Your task is to replace the blank (______) with rjust, ljust or center.
-"""
-#Replace all ______ with rjust, ljust or center. 
+#Replace all ______ with rjust, ljust or center.
 
 thickness = int(input()) #This must be an odd number
 c = 'H'
@@ -17,11 +13,11 @@ for i in range(thickness+1):
 
 #Middle Belt
 for i in range((thickness+1)//2):
-    print((c*thickness*5).center(thickness*6))    
+    print((c*thickness*5).center(thickness*6))
 
 #Bottom Pillars
 for i in range(thickness+1):
-    print((c*thickness).center(thickness*2)+(c*thickness).center(thickness*6))    
+    print((c*thickness).center(thickness*2)+(c*thickness).center(thickness*6))
 
 #Bottom Cone
 for i in range(thickness):
